@@ -1,6 +1,8 @@
 class MeaningSerializer < ActiveModel::Serializer
-  attributes :id, :text, :category_id
+  embed :ids
 
-  belongs_to :category_id
+  attributes :id, :text
+
+  has_one :category
   has_many :words
 end
