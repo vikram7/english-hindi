@@ -40,4 +40,7 @@ ActiveRecord::Schema.define(version: 20150328224538) do
     t.datetime "updated_at"
   end
 
+  add_index "words", ["text_hindi"], name: "index_words_on_text_hindi", using: :btree
+  add_index "words", ["text_romanized"], name: "index_words_on_text_romanized", using: :btree
+
 end

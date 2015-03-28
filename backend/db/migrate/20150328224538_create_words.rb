@@ -8,5 +8,7 @@ class CreateWords < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :words, :text_hindi
+    add_index :words, :text_romanized
   end
 end
