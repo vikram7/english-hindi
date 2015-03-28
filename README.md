@@ -3,4 +3,7 @@ ER Diagram:
 
 ![alt](http://i.imgur.com/giTLrQm.png)
 
-Generated API for meanings.
+Rails backend work.
+- Generated API for meanings & words
+- Added ActiveModel Serializer
+
