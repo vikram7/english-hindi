@@ -56,15 +56,15 @@ a.btn:focus {
 a.btn-cta-primary,
 .btn-cta-primary {
   background: green;
-  border: 1px solid green;
+  border: 1px #00B233;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 a.btn-cta-primary:hover,
 .btn-cta-primary:hover {
-  background: lightgreen;
-  border: 1px solid lightgreen;
+  background: #00FF48;
+  border: 1px solid #00FF48;
   color: #fff;
 }
 a.btn-cta-secondary,
