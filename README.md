@@ -26,7 +26,7 @@ Ember frontend work
 - Add devaid theme to front end
 - Style words show page
 
-![alt](http://i.imgur.com/o8YaLQO.png)
+![alt](http://i.imgur.com/cjY7nUN.png)
 
 Next Steps
 - Update words show page to look like flash card
