@@ -1,5 +1,4 @@
 require 'rails_helper'
-require 'pry'
 
 RSpec.describe Api::V1::CategoriesController, :type => :controller do
   describe "GET #index" do
@@ -15,7 +14,7 @@ RSpec.describe Api::V1::CategoriesController, :type => :controller do
       serialized_categories = ActiveModel::ArraySerializer.new(ordered_categories, root: :categories)
 
       expect(response.status).to eq 200
-      binding.pry
+
       expect(json).to be_json_eq(serialized_categories)
     end
   end
@@ -31,7 +30,7 @@ RSpec.describe Api::V1::CategoriesController, :type => :controller do
 
       get :show, id: category.id
 
-      expect(json).to be_json_eq serialized_category
+      expect(json).to be_json_eq(serialized_category)
     end
   end
 end

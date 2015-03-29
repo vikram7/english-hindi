@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :meaning do
-    text "This has meaning"
+    sequence(:text) { |n| "This has meaning #{n}" }
     category
   end
 end

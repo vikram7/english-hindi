@@ -18,6 +18,7 @@ Ember frontend work
 March 29, 2015
 Rails API testing
 - add controllers helper module to spec/support/controllers
+- add json equivalence testing module in spec/support/matchers
 
 Next Steps
 - Tests
