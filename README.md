@@ -3,9 +3,14 @@ ER Diagram:
 
 ![alt](http://i.imgur.com/giTLrQm.png)
 
-Rails backend work.
+Rails backend work
 - Generated API for meanings & words
 - Added ActiveModel Serializer
 - Added seeder file for a 300+ english-hindi word pairs
+
+Ember frontend work
 - Add Ember front end
 - Update Ember routes to support words index and show pages
+- Get word meanings to print out on word show page:
+
+![alt](http://i.imgur.com/tKsF9BQ.png)
