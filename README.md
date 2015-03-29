@@ -6,4 +6,4 @@ ER Diagram:
 Rails backend work.
 - Generated API for meanings & words
 - Added ActiveModel Serializer
-
+- Added seeder file for a 300+ english-hindi word pairs

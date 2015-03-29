@@ -1,16 +1,5 @@
 require 'csv'
 
-# Category.create(part_of_speech: "noun")
-# Category.create(part_of_speech: "verb")
-# Category.create(part_of_speech: "adjective")
-
-# Meaning.create(text: "squirrel", category_id: Category.find_by(part_of_speech: "noun").id)
-# Meaning.create(text: "love", category_id: Category.find_by(part_of_speech: "noun").id)
-# Meaning.create(text: "to love", category_id: Category.find_by(part_of_speech: "verb").id)
-
-# Word.create(text_hindi: "प्यार", text_romanized: "pyaar", meaning_id: 2, category_id: Meaning.find(2).category_id)
-# Word.create(text_hindi: "इश्क", text_romanized: "ishq", meaning_id: 2, category_id: Meaning.find(2).category_id)
-
 file = File.read("english-hindi-seed-file.csv")
 csv = CSV.parse(file, headers: true, header_converters: :symbol)
 count = 0
