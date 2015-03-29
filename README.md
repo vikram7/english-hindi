@@ -29,6 +29,7 @@ Ember frontend work
 ![alt](http://i.imgur.com/o8YaLQO.png)
 
 Next Steps
-- Tests
-- Styling
-- Transitions
+- Update words show page to look like flash card
+- Add transitions for flipping flash card
+- Add photos for flash card (maybe an API rather than static images?)
+- More Tests
