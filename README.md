@@ -19,6 +19,14 @@ March 29, 2015
 Rails API testing
 - add controllers helper module to spec/support/controllers
 - add json equivalence testing module in spec/support/matchers
+- add serializer tests
+
+Ember frontend work
+- Add bootstrap
+- Add devaid theme to front end
+- Style words show page
+
+![alt](http://i.imgur.com/o8YaLQO.png)
 
 Next Steps
 - Tests
