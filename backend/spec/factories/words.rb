@@ -3,7 +3,7 @@ FactoryGirl.define do
     text_hindi "भालू"
     text_romanized "baalu"
 
-    meanings
-    categories
+    meaning
+    category
   end
 end

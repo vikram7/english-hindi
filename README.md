@@ -14,3 +14,12 @@ Ember frontend work
 - Get word meanings to print out on word show page:
 
 ![alt](http://i.imgur.com/tKsF9BQ.png)
+
+March 29, 2015
+Rails API testing
+- add controllers helper module to spec/support/controllers
+
+Next Steps
+- Tests
+- Styling
+- Transitions
