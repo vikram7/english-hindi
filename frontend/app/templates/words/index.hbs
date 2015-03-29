@@ -1,0 +1,6 @@
+<h1>Words</h1>
+
+{{#each word in model}}
+  <h3>{{link-to word.text_hindi 'words.show' word}}</h3>
+  <p>{{word.text_romanized}}</p>
+{{/each}}

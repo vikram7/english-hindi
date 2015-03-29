@@ -3,8 +3,8 @@ class CreateWords < ActiveRecord::Migration
     create_table :words do |t|
       t.text :text_hindi, null: false
       t.text :text_romanized, null: false
-      t.text :meaning_id, null: false
-      t.text :category_id, null: false
+      t.integer :meaning_id, null: false
+      t.integer :category_id, null: false
 
       t.timestamps
     end

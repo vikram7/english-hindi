@@ -34,8 +34,8 @@ ActiveRecord::Schema.define(version: 20150328224538) do
   create_table "words", force: :cascade do |t|
     t.text     "text_hindi",     null: false
     t.text     "text_romanized", null: false
-    t.text     "meaning_id",     null: false
-    t.text     "category_id",    null: false
+    t.integer  "meaning_id",     null: false
+    t.integer  "category_id",    null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
