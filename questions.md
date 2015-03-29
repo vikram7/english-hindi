@@ -8,3 +8,7 @@ Are there any other indexes I should add?
 Where is a good spot to put that csv file?
 There looks like there are a lot of database queries going on. What's the deal?
 I should review the data to make sure it looks ok.
+
+# Front End / Ember
+What is bower?
+What is Router.js doing?
