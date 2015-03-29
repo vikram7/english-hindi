@@ -93,11 +93,13 @@ pre code {
 
 /* ======= flashcard ==== */
 .flashcard {
-  padding: 50px;
-  margin-top: 25px;
-  height: 250px;
-  width: 250px;
   background-color: #fafafa;
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* ======= Header ======= */
