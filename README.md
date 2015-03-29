@@ -32,4 +32,5 @@ Next Steps
 - Update words show page to look like flash card
 - Add transitions for flipping flash card
 - Add photos for flash card (maybe an API rather than static images?)
+- Add ability to post cards
 - More Tests
