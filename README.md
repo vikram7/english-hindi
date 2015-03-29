@@ -7,3 +7,5 @@ Rails backend work.
 - Generated API for meanings & words
 - Added ActiveModel Serializer
 - Added seeder file for a 300+ english-hindi word pairs
+- Add Ember front end
+- Update Ember routes to support words index and show pages
