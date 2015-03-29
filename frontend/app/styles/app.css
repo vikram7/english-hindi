@@ -90,6 +90,16 @@ a.btn-cta-secondary:hover,
 pre code {
   font-size: 16px;
 }
+
+/* ======= flashcard ==== */
+.flashcard {
+  padding: 50px;
+  margin-top: 25px;
+  height: 250px;
+  width: 250px;
+  background-color: #fafafa;
+}
+
 /* ======= Header ======= */
 .header {
   padding: 10px 0;
