@@ -8,6 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.resource('words', function() {
     this.route('show', { path: ':word_id'});
+    this.route('new');
   });
 });
 

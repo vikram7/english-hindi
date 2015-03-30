@@ -102,6 +102,17 @@ pre code {
   flex-direction: column;
 }
 
+/* ====== Input Form ==== */
+.word-form {
+  background-color: #fafafa;
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 /* ======= Header ======= */
 .header {
   padding: 10px 0;

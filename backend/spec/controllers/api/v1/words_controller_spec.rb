@@ -70,8 +70,5 @@ RSpec.describe Api::V1::WordsController, :type => :controller do
       expect(Word.all.count).to eq prev_count
     end
   end
-
-
-
 end
 
