@@ -29,7 +29,10 @@ Ember frontend work
 ![alt](http://i.imgur.com/u2AZCQA.png)
 
 Next Steps
+- Research liquidfire
 - Update words show page to look like flash card
+- Consider ES6 syntax
+- Look at google translate api for sounds
 - Add transitions for flipping flash card
 - Add photos for flash card (maybe an API rather than static images?)
 - Add ability to post cards

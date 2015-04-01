@@ -17,7 +17,6 @@ export default Ember.Route.extend({
       this.transitionTo('words.show', word);
       var newWord = this.store.createRecord('word');
       this.controller.set('newWord', newWord);
-
     }
   }
 });
