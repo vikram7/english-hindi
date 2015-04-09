@@ -11,4 +11,4 @@ var WordsNewController = {
   }
 };
 
-export default Ember.ObjectController.extend(WordsNewController);
+export default Ember.Controller.extend(WordsNewController);

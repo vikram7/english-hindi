@@ -10,6 +10,10 @@ Router.map(function() {
     this.route('show', { path: ':word_id'});
     this.route('new');
   });
+
+  this.resource('meanings', function() {
+    this.route('show', { path: ':meaning_id'});
+  });
 });
 
 export default Router;
