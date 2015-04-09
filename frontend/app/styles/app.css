@@ -59,16 +59,16 @@ pre code {
   flex-direction: column;
 }
 
+.flashcard .part-of-speech {
+  font-size: 1.5em;
+}
+
 .flashcard .text-hindi {
   font-size: 8em;
 }
 
 .flashcard .text-romanized {
   font-size: 3em;
-}
-
-.flashcard .part-of-speech {
-  font-size: 1.5em;
 }
 
 .flashcard .english-meaning {

@@ -1,13 +1,13 @@
 <div class="container text-center">
   <div class="flashcard">
+    <div class="part-of-speech">
+      {{category.part_of_speech}}
+    </div>
     <div class="text-hindi">
       {{text_hindi}}
     </div>
     <div class="text-romanized">
       {{text_romanized}}
-    </div>
-    <div class="part-of-speech">
-      {{category.part_of_speech}}
     </div>
 
     {{#link-to 'meanings.show' meaning.id}}
