@@ -1,14 +1,17 @@
 <div class="container text-center">
   <div class="flashcard">
-    <h1>{{text_hindi}}</h1>
-    <h4>{{text_romanized}}</h4>
-    <h6>{{category.part_of_speech}}</h6>
-
+    <div class="text-hindi">
+      {{text_hindi}}
+    </div>
+    <div class="text-romanized">
+      {{text_romanized}}
+    </div>
+    <div class="part-of-speech">
+      {{category.part_of_speech}}
+    </div>
 
     {{#link-to 'meanings.show' meaning.id}}
-      <div class="btns">
-        <a class="btn btn-cta-primary">Flip!</a>
-      </div>
+        <a class="btn">Flip!</a>
     {{/link-to}}
   </div>
 </div>
