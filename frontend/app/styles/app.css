@@ -32,7 +32,7 @@ a {
   -o-transition: all 0.4s ease-in-out;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #0e98c5;
 }
 
@@ -78,23 +78,22 @@ pre code {
 }
 
 .flashcard:hover {
-  background: #0BE8E4;
-}
-
-a:hover {
-  text-decoration: none;
+  background: #17baef;
 }
 
 /* ====== Input Form ==== */
 .word-form {
-  margin-top: 100px;
   background-color: #fafafa;
-  min-height: 100%;
-  min-height: 100vh;
+  border-radius: 100px;
+  margin-top: 200px;
+  min-height: 50%;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: black;
+  text-decoration: none;
 }
 
 /* ======= Header ======= */
