@@ -48,7 +48,7 @@ pre code {
 
 /* ======= flashcard ==== */
 .flashcard {
-  background-color: #C5C5C5;
+  background-color: #fafafa;
   border-radius: 100px;
   margin-top: 200px;
   min-height: 50%;
@@ -57,6 +57,8 @@ pre code {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: black;
+  text-decoration: none;
 }
 
 .flashcard .part-of-speech {
@@ -75,18 +77,11 @@ pre code {
   font-size: 8em;
 }
 
-.flashcard .btn {
-  background: #17baef;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.flashcard:hover {
+  background: #0BE8E4;
 }
 
-.flashcard .btn:hover {
-  background: #0BE8E4;
+a:hover {
   text-decoration: none;
 }
 

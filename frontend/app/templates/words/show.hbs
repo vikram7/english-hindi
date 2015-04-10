@@ -1,4 +1,5 @@
 <div class="container text-center">
+ {{#link-to 'meanings.show' meaning.id}}
   <div class="flashcard">
     <div class="part-of-speech">
       {{category.part_of_speech}}
@@ -9,9 +10,6 @@
     <div class="text-romanized">
       {{text_romanized}}
     </div>
-
-    {{#link-to 'meanings.show' meaning.id}}
-        <a class="btn">Flip!</a>
-    {{/link-to}}
   </div>
+{{/link-to}}
 </div>
