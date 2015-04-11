@@ -46,8 +46,7 @@ April 11, 2015
 ###Next Steps
 - Research liquidfire, Add transitions for flipping flash card
 - Add ability to post cards
-- reverse flip: I need to pass along the word (using query params) and set that as a property on a controller.
-- js hint
+
 - Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi)
 - Remove index action
 - Consider ES6 syntax
