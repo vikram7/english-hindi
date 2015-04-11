@@ -1,3 +1,5 @@
+import Word from './models/word';
+
 export default function(){
   this.transition(
     this.fromRoute('words.random'),
@@ -14,4 +16,9 @@ export default function(){
     this.toRoute('words.show'),
     this.use('toRight')
   );
+  this.transition(
+    this.toRoute('words.random'),
+    this.use('cross-fade')
+  );
 };
+
