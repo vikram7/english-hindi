@@ -44,7 +44,7 @@ April 11, 2015
 - Styling New Word button with Bootstrap defaults
 
 ###Next Steps
-- Research liquidfire, Add transitions for flipping flash card
+- Research liquidfire, add transitions for flipping flash card
 - Add ability to post cards
 
 - Replace 'placeholder' cards with romanized text
