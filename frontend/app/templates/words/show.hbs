@@ -1,14 +1,14 @@
 <div class="container text-center">
- {{#link-to 'meanings.show' meaning.id}}
+ {{#link-to 'meanings.show' word.meaning.id (query-params wordId=word.id)}}
   <div class="flashcard">
     <div class="part-of-speech">
-      {{category.part_of_speech}}
+      {{word.category.part_of_speech}}
     </div>
     <div class="text-hindi">
-      {{text_hindi}}
+      {{word.text_hindi}}
     </div>
     <div class="text-romanized">
-      {{text_romanized}}
+      {{word.text_romanized}}
     </div>
   </div>
 {{/link-to}}
