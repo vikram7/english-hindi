@@ -64,7 +64,6 @@ pre code {
 
 .flashcard .part-of-speech {
   font-size: 1.5em;
-  font-style: italic;
 }
 
 .flashcard .text-hindi {
@@ -73,6 +72,7 @@ pre code {
 
 .flashcard .text-romanized {
   font-size: 3em;
+  font-style: italic;
 }
 
 .flashcard .english-meaning {
@@ -81,6 +81,7 @@ pre code {
 
 .flashcard:hover {
   background: #17baef;
+  color: white;
 }
 
 /* ====== Input Form ==== */
