@@ -44,6 +44,7 @@ April 11, 2015
 - Styling New Word button with Bootstrap defaults
 
 ###Next Steps
+- Remove deprecation warnings
 - Research liquidfire, Add transitions for flipping flash card
 - Add ability to post cards
 - Fix up / clean show pages, deprecation warnings, controller for show
