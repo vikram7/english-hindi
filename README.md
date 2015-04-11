@@ -40,6 +40,10 @@ April 9-10, 2015
 April 11, 2015
 - Write random words controller to remove deprecations (there was an old object controller which was proxying everything to the model from the route). Ember is taking away proxying.
 
+- Figured out how to use query params to go "back" to a meaning's word after clicking on the meaning
+
+- Added refresh page with `propertyToggle` in a button
+
 Next Steps
 - Research liquidfire, Add transitions for flipping flash card
 - Add ability to post cards
@@ -48,6 +52,7 @@ Next Steps
 - js hint
 - Look at google translate api for sounds
 http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi
+- Remove index action
 
 - Consider ES6 syntax
 - Add photos for flash card (maybe an API rather than static images?)

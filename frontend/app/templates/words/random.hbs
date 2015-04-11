@@ -1,5 +1,5 @@
 <div class="container text-center">
- {{#link-to 'meanings.show' word.meaning.id}}
+ {{#link-to 'meanings.show' word.meaning.id (query-params wordId=word.id)}}
   <div class="flashcard">
     <div class="part-of-speech">
       {{word.category.part_of_speech}}
@@ -13,3 +13,10 @@
   </div>
 {{/link-to}}
 </div>
+
+<div class="container text-center">
+  <button class="btn-primary" {{action 'newModel'}}>New Word!</button>
+</div>
+
+
+

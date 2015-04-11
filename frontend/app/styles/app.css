@@ -81,6 +81,23 @@ pre code {
   background: #17baef;
 }
 
+a.btn-primary,
+.btn-primary {
+  border-radius: 50px;
+  font-size: 1.5em;
+  background: #eebf3f;
+  border: 1px solid #eebf3f;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+a.btn-primary:hover,
+.btn-primary:hover {
+  background: #eebf3f;
+  border: 1px solid #eebf3f;
+}
+
+
 /* ====== Input Form ==== */
 .word-form {
   background-color: #fafafa;
