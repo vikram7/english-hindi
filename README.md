@@ -44,7 +44,6 @@ April 11, 2015
 - Styling New Word button with Bootstrap defaults
 
 ###Next Steps
-- Remove deprecation warnings
 - Research liquidfire, Add transitions for flipping flash card
 - Add ability to post cards
 - reverse flip: I need to pass along the word (using query params) and set that as a property on a controller.
