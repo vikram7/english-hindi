@@ -1,7 +1,10 @@
 class Api::V1::WordsController < ApplicationController
   def index
-    @words = Word.all
-
+    if params[:random]
+      @words = Word.find_by_sql("select * from words order by random() limit 1;")
+    else
+      @words = Word.all
+    end
     render json: @words
   end
 

@@ -28,13 +28,27 @@ Ember frontend work
 
 ![alt](http://i.imgur.com/u2AZCQA.png)
 
-Next Steps
-- Research liquidfire
-- Consider ES6 syntax
-- Look at google translate api for sounds
-- Add transitions for flipping flash card
-- Add photos for flash card (maybe an API rather than static images?)
-- Add ability to post cards
-- More Tests
+April 9-10, 2015
+- More words styling
 
+![alt](http://i.imgur.com/vunMXxY.png)
+
+- Add ability to click words to show meaning
+
+![alt](http://i.imgur.com/KLXa172.png)
+
+April 11, 2015
+- Write random words controller to remove deprecations (there was an old object controller which was proxying everything to the model from the route). Ember is taking away proxying.
+
+Next Steps
+- Research liquidfire, Add transitions for flipping flash card
+- Add ability to post cards
+- Fix up / clean show pages, deprecation warnings, controller for show
+- reverse flip: I need to pass along the word (using query params) and set that as a property on a controller.
+- js hint
+- Look at google translate api for sounds
 http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi
+
+- Consider ES6 syntax
+- Add photos for flash card (maybe an API rather than static images?)
+- More Tests

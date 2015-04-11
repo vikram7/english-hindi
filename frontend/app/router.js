@@ -6,12 +6,13 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.resource('words', function() {
+  this.route('words', function() {
     this.route('show', { path: ':word_id'});
     this.route('new');
+    this.route('random', { path: '/random' });
   });
 
-  this.resource('meanings', function() {
+  this.route('meanings', function() {
     this.route('show', { path: ':meaning_id'});
   });
 });
