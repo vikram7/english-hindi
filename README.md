@@ -47,7 +47,6 @@ April 11, 2015
 - Remove deprecation warnings
 - Research liquidfire, Add transitions for flipping flash card
 - Add ability to post cards
-- Fix up / clean show pages, deprecation warnings, controller for show
 - reverse flip: I need to pass along the word (using query params) and set that as a property on a controller.
 - js hint
 - Look at google translate api for sounds
