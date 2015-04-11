@@ -18,7 +18,7 @@ export default function(){
   );
   this.transition(
     this.toRoute('words.random'),
-    this.use('cross-fade')
+    this.use('cross-fade', { duration: 500 })
   );
 };
 

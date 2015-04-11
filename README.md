@@ -42,10 +42,14 @@ April 11, 2015
 - Figured out how to use query params to go "back" to a meaning's word after clicking on the meaning
 - Added refresh page with `propertyToggle` in a button
 - Styling New Word button with Bootstrap defaults
+- Added liquidfire transitions for words <-> meanings
 
 ###Next Steps
-- Research liquidfire, add transitions for flipping flash card
 - Add ability to post cards
+- Redo header to allow for clickability
+- Transition for random word <-> random word
+- Custom transition for flipping flashcard?
+- Remove warnings around CSP directive
 
 - Replace 'placeholder' cards with romanized text
 - Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi)
