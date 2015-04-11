@@ -8,7 +8,6 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('words', function() {
     this.route('show', { path: ':word_id'});
-    this.route('new');
     this.route('random', { path: '/random' });
   });
 
