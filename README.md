@@ -39,12 +39,11 @@ April 9-10, 2015
 
 April 11, 2015
 - Write random words controller to remove deprecations (there was an old object controller which was proxying everything to the model from the route). Ember is taking away proxying.
-
 - Figured out how to use query params to go "back" to a meaning's word after clicking on the meaning
-
 - Added refresh page with `propertyToggle` in a button
+- Styling New Word button with Bootstrap defaults
 
-Next Steps
+###Next Steps
 - Research liquidfire, Add transitions for flipping flash card
 - Add ability to post cards
 - Fix up / clean show pages, deprecation warnings, controller for show

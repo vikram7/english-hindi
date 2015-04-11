@@ -51,6 +51,7 @@ pre code {
   background-color: #fafafa;
   border-radius: 100px;
   margin-top: 200px;
+  margin-bottom: 50px;
   min-height: 50%;
   min-height: 50vh;
   display: flex;
@@ -63,6 +64,7 @@ pre code {
 
 .flashcard .part-of-speech {
   font-size: 1.5em;
+  font-style: italic;
 }
 
 .flashcard .text-hindi {
@@ -83,18 +85,19 @@ pre code {
 
 a.btn-primary,
 .btn-primary {
-  border-radius: 50px;
+  border-radius: 10px;
   font-size: 1.5em;
   background: #eebf3f;
   border: 1px solid #eebf3f;
   color: #fff;
+  font-weight: 100;
   text-transform: uppercase;
 }
 
 a.btn-primary:hover,
 .btn-primary:hover {
-  background: #eebf3f;
-  border: 1px solid #eebf3f;
+  background: #7F6622;
+  border: 1px solid #7F6622;
 }
 
 
@@ -172,11 +175,11 @@ a.btn-primary:hover,
   font-family: 'Montserrat', sans-serif;
 }
 .header .main-nav .nav .nav-item.active a {
-  color: #17baef;
+  color: #fff;
   background: none;
 }
 .header .main-nav .nav .nav-item a {
-  color: #0a7396;
+  color: #fff;
   -webkit-transition: none;
   -moz-transition: none;
   -ms-transition: none;
@@ -185,7 +188,7 @@ a.btn-primary:hover,
   padding: 15px 10px;
 }
 .header .main-nav .nav .nav-item a:hover {
-  color: #074f66;
+  color: #fff;
   background: none;
 }
 .header .main-nav .nav .nav-item a:focus {
@@ -197,7 +200,7 @@ a.btn-primary:hover,
   background: none;
 }
 .header .main-nav .nav .nav-item.active {
-  color: #17baef;
+  color: #fff;
 }
 .header .main-nav .nav .nav-item.last {
   margin-right: 0;
