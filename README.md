@@ -51,7 +51,6 @@ April 12, 2015
 
 ###Next Steps
 - Add ability to post cards
-- Redo header to allow for clickability
 - Transition for random word <-> random word
 - Custom transition for flipping flashcard?
 - Remove warnings around CSP directive

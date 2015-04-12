@@ -16,3 +16,4 @@ What is {{outlet}}? placeholders for other templates. As users move around your 
 What is { async: true } in models doing?
 In my words show page, how is it aware of `meaning`?
 Why isn't my words show page aware of `category`? (because categories were not part of the routes.rb file in the backend)
+Why isn't a fromModel & toModel transition working for random word <-> random word?

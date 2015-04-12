@@ -22,6 +22,7 @@ a:hover {
   margin-bottom: 50px;
   min-height: 50%;
   min-height: 50vh;
+  /*max-width: 750px;*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,10 +68,12 @@ a:hover {
   text-decoration: none;
 }
 
+/* ========= Navbar ===== */
 .navbar-custom {
   background-color:#17baef;
 }
 
-a.navbar-custom {
-  color: green;
+.navbar-brand {
+  font-size: 3em;
 }
+
