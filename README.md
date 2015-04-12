@@ -46,6 +46,9 @@ April 11, 2015
 
 ![alt](http://i.imgur.com/mVSRh63.gif)
 
+April 12, 2015
+- Redid navbar with Bootstrap custom defaults
+
 ###Next Steps
 - Add ability to post cards
 - Redo header to allow for clickability

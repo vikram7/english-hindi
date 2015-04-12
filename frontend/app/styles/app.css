@@ -1,41 +1,17 @@
 /* ======= Base ======= */
-body {
-  font-family: 'Lato', arial, sans-serif;
-  color: #444444;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #17baef;
-}
 a {
   color: white;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
 }
 a:hover {
   text-decoration: none;
-  color: #0e98c5;
 }
 
 .text-highlight {
   color: #074f66;
 }
+
 .offset-header {
   padding-top: 90px;
-}
-pre code {
-  font-size: 16px;
 }
 
 /* ======= flashcard ==== */
