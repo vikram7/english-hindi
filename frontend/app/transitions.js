@@ -1,4 +1,4 @@
-import Word from './models/word';
+// import Word from './models/word';
 
 export default function(){
   this.transition(
@@ -20,5 +20,5 @@ export default function(){
     this.toRoute('words.random'),
     this.use('cross-fade', { duration: 500 })
   );
-};
+}
 
