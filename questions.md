@@ -3,7 +3,6 @@ What does "embed" ids mean? embeds ids of associations instead of embedding seri
 Are you happy with the Category - Meaning - Word relationships?
 What if you wanted to add another language like Tamil?
 Are there any other indexes I should add?
-Where is a good spot to put that csv file?
 
 ##Testing
 What does this mean wrt include?: serialized_meaning = MeaningSerializer.new(meaning, include: [:word])
