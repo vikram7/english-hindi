@@ -55,9 +55,9 @@ April 12, 2015
 - Custom transition for flipping flashcard?
 - Remove warnings around CSP directive
 - More Tests
+- Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi)
 
 - Replace 'placeholder' cards with romanized text
-- Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi)
 - Remove index action
 - Consider ES6 syntax
 - Add photos for flash card (maybe an API rather than static images?)
