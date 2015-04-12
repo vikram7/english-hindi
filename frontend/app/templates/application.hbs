@@ -1,28 +1,17 @@
 <header id="header" class="header">
-  <div class="container">
-    <h1 class="logo pull-left">
-        {{link-to "स्मरण शक्ति" "words.random"}}
-    </h1><!--//logo-->
-    <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+  <nav class="navbar navbar-custom">
+    <div class="container-fluid">
       <div class="navbar-header">
-        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button><!--//nav-toggle-->
-      </div><!--//navbar-header-->
-      <div class="navbar-collapse collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-          <li class="nav-item"><a class="scrollto" href="#">Add Card</a></li>
-          <li class="nav-item"><a class="scrollto" href="#about">About</a></li>
-          <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
-        </ul><!--//nav-->
-      </div><!--//navabr-collapse-->
-    </nav><!--//main-nav-->
-  </div>
-</header><!--//header-->
+        {{link-to "स्मरण शक्ति" "words.random" class="navbar-brand"}}
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          {{link-to "Add Card" "words.random" class="navbar-brand"}}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
 {{liquid-outlet}}
 
