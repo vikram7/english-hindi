@@ -1,6 +1,10 @@
 class Api::V1::CategoriesController < ApplicationController
   def index
-    @categories = Category.all
+    if params[:part_of_speech]
+      @categories = Category.where(part_of_speech: params[:part_of_speech])
+    else
+      @categories = Category.all
+    end
 
     render json: @categories
   end

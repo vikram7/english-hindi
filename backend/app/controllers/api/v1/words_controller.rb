@@ -14,7 +14,12 @@ class Api::V1::WordsController < ApplicationController
     render json: @word
   end
 
+  def new
+
+  end
+
   def create
+    binding.pry
     word = Word.new(create_word_params)
 
     if word.save
@@ -29,7 +34,7 @@ class Api::V1::WordsController < ApplicationController
   private
 
   def create_word_params
-    params.require(:word).permit(:text_hindi, :text_romanized, :category_id, :meaning_id)
+    params.require(:word).permit(:text_hindi, :text_romanized, :category, :meaning)
   end
 
 end

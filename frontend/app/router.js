@@ -7,13 +7,20 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('words', function() {
-    this.route('show', { path: ':word_id'});
+    this.route('show', { path: ':word_id' });
     this.route('random', { path: '/random' });
+    this.route('new');
   });
 
   this.route('meanings', function() {
-    this.route('show', { path: ':meaning_id'});
+    this.route('show', { path: ':meaning_id' });
   });
+
+  this.route('categories', function() {
+    this.route('index');
+    this.route('show', { path: ':category_id' });
+  });
+
 });
 
 export default Router;

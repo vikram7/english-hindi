@@ -1,0 +1,21 @@
+<div class="container text-center">
+  <div class="word-form">
+    <section>
+      <div>
+        {{view "select" content=partOfSpeech value=part_of_speech}}
+      </div>
+      <div>
+        {{textarea placeholder="Hindi Text" value=text_hindi}}
+      </div>
+      <div>
+        {{textarea placeholder="Romanized Text" value=text_romanized}}
+      </div>
+      <div>
+        {{textarea placeholder="Meaning" value=text}}
+      </div>
+    </section>
+  </div>
+  <section>
+    <button class="btn btn-success btn-lg" {{action 'newWord'}}>Add Word</button>
+  </section>
+</div>
