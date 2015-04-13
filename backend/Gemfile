@@ -10,6 +10,8 @@ gem 'pg'
 
 gem 'active_model_serializers', '0.8.3'
 
+gem 'httparty'
+
 group :test do
   gem 'shoulda-matchers', require: false
 end
@@ -19,5 +21,6 @@ group :development, :test do
   gem 'faker'
   gem 'pry-rails'
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'dotenv-rails'
 end
 

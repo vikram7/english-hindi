@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150328224538) do
+ActiveRecord::Schema.define(version: 20150412234304) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 20150328224538) do
     t.integer  "category_id",    null: false
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "forvo_url"
   end
 
   add_index "words", ["text_hindi"], name: "index_words_on_text_hindi", using: :btree

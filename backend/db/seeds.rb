@@ -22,6 +22,9 @@ csv.each do |row|
   word.meaning_id = meaning.id
   word.text_romanized = text_romanized
   word.category_id = category.id
+  if word.get_forvo_url
+    word.forvo_url = word.get_forvo_url
+  end
   word.save!
 end
 
