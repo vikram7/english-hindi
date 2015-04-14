@@ -19,12 +19,8 @@ export default Ember.Controller.extend({
 
       word.save().then(function(){
         _this.transitionToRoute('words.show', word);
-      }).catch(function(e){
-        var messages = [];
-        var errors = e.errors;
-        messages.push("Hindi Text " + errors.text_hindi);
-        messages.push("Romanized Text " + errors.text_romanized);
-        _this.set('validationErrors', messages);
+      }).catch(function(){
+        _this.set('validationErrors', ["Please enter in all the fields!"]);
       });
     }
   }
