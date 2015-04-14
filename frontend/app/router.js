@@ -16,11 +16,6 @@ Router.map(function() {
     this.route('show', { path: ':meaning_id' });
   });
 
-  this.route('categories', function() {
-    this.route('index');
-    this.route('show', { path: ':category_id' });
-  });
-
 });
 
 export default Router;

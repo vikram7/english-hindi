@@ -49,8 +49,13 @@ April 11, 2015
 April 12, 2015
 - Redid navbar with Bootstrap custom defaults
 
+April 13, 2015
+- Added ability to post cards (by )
+
 ###Next Steps
-- Add ability to post cards
+
+- Style new card form
+- Deal with bad input in new card form
 - Transition for random word <-> random word
 - Custom transition for flipping flashcard?
 - Remove warnings around CSP directive

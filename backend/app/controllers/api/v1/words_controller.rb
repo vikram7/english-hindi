@@ -19,8 +19,10 @@ class Api::V1::WordsController < ApplicationController
   end
 
   def create
-    binding.pry
-    word = Word.new(create_word_params)
+    word_params = create_word_params
+    word = Word.new(text_hindi: word_params[:text_hindi], text_romanized: word_params[:text_romanized])
+    word.category = Category.find_by(part_of_speech: word_params[:category_part_of_speech])
+    word.meaning = Meaning.find_or_create_by!(category_id: word.category.id, text: word_params[:meaning_text])
 
     if word.save
       render json: word,
@@ -34,7 +36,7 @@ class Api::V1::WordsController < ApplicationController
   private
 
   def create_word_params
-    params.require(:word).permit(:text_hindi, :text_romanized, :category, :meaning)
+    params.require(:word).permit(:text_hindi, :text_romanized, :category_part_of_speech, :meaning_text)
   end
 
 end
