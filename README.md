@@ -55,6 +55,7 @@ April 13, 2015
 ###Next Steps
 
 - Style new card form
+- Add Edit card ability
 - Deal with bad input in new card form
 - Transition for random word <-> random word
 - Custom transition for flipping flashcard?

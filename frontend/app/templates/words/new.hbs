@@ -1,17 +1,17 @@
 <div class="container text-center">
-  <div class="word-form">
+  <div class="well">
     <section>
       <div>
         {{view "select" content=partOfSpeech value=part_of_speech}}
       </div>
       <div>
-        {{textarea placeholder="Hindi Text" value=text_hindi}}
+        {{textarea class="form-control" placeholder="Hindi Text" value=text_hindi}}
       </div>
       <div>
-        {{textarea placeholder="Romanized Text" value=text_romanized}}
+        {{textarea class="form-control" placeholder="Romanized Text" value=text_romanized}}
       </div>
       <div>
-        {{textarea placeholder="Meaning" value=text}}
+        {{textarea class="form-control" placeholder="Meaning" value=text}}
       </div>
     </section>
   </div>

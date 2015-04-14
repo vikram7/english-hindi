@@ -15,66 +15,71 @@ a:hover {
 }
 
 /* ======= flashcard ==== */
-.flashcard {
+/*.flashcard {
   background-color: #fafafa;
   border-radius: 100px;
   margin-top: 100px;
   margin-bottom: 50px;
   min-height: 50%;
   min-height: 50vh;
-  /*max-width: 750px;*/
+  max-width: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: black;
   text-decoration: none;
-}
+}*/
 
-.flashcard .part-of-speech {
+.part-of-speech {
   font-size: 1.5em;
 }
 
-.flashcard .text-hindi {
+.text-hindi {
   font-size: 8em;
 }
 
-.flashcard .text-romanized {
+.text-romanized {
   font-size: 3em;
   font-style: italic;
 }
 
-.flashcard .english-meaning {
+.english-meaning {
   font-size: 8em;
 }
 
-.flashcard:hover {
+.well {
+  margin-top: 100px;
+  color: black;
+}
+
+.well:hover {
   background: #17baef;
   color: white;
 }
 
 /* ====== Input Form ==== */
-.word-form {
+/*.word-form {
   background-color: #fafafa;
   border-radius: 100px;
   margin-top: 100px;
   margin-bottom: 50px;
   min-height: 50%;
   min-height: 50vh;
-  /*max-width: 750px;*/
+  max-width: 750px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: black;
   text-decoration: none;
-}
+}*/
 
-.word-form:hover {
+/*.word-form:hover {
   background: #17baef;
   color: black;
 }
-
+*/
 /* ========= Navbar ===== */
 .navbar-custom {
   background-color:#17baef;
