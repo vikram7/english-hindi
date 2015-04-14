@@ -59,7 +59,7 @@ April 13, 2015
 
 - Style new card form
 - Add Edit card ability
-- Deal with bad input in new card form
+- Deal with bad input in new card form / validations
 - Transition for random word <-> random word
 - Custom transition for flipping flashcard?
 - Remove warnings around CSP directive
