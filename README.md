@@ -55,6 +55,10 @@ April 13, 2015
   - having the server take care of creating the word
 - Replaced custom flashcard css with bootstrap's `well`
 
+April 14, 2015
+- Added first implementation of validations / error messages
+- Server side fix for meaning text validation
+
 ###Next Steps
 
 - Style new card form
