@@ -1,8 +1,14 @@
 <div class="container text-center">
   {{#link-to 'words.show' wordId}}
   <div class="well">
+    <div class="part-of-speech">
+      {{meaning.category.part_of_speech}}
+    </div>
     <div class="english-meaning">
       {{meaning.text}}
+    </div>
+    <div class="text-romanized">
+      placeholder
     </div>
   </div>
   {{/link-to}}

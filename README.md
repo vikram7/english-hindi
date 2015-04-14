@@ -50,7 +50,10 @@ April 12, 2015
 - Redid navbar with Bootstrap custom defaults
 
 April 13, 2015
-- Added ability to post cards (by )
+- Added ability to post cards
+  - by adding fields to ember word model
+  - having the server take care of creating the word
+- Replaced custom flashcard css with bootstrap's `well`
 
 ###Next Steps
 
