@@ -1,15 +1,18 @@
 <div class="container text-center">
-
   {{#each error in validationErrors}}
   <div class="alert alert-danger" role="alert">
     {{error}}
   </div>
   {{/each}}
-
   <div class="well">
-    <section>
+    {{#em-form model=this action="newWord"}}
       <div>
-        {{view "select" content=partOfSpeech value=part_of_speech}}
+        {{em-select
+          property="partOfSpeech"
+          content=partsOfSpeech
+          optionValuePath="content.partOfSpeech"
+          optionLabelPath="content.partOfSpeech"
+          }}
       </div>
       <div>
         {{textarea class="form-control" placeholder="Hindi Text" value=text_hindi}}
@@ -20,9 +23,6 @@
       <div>
         {{textarea class="form-control" placeholder="Meaning" value=text}}
       </div>
-    </section>
+    {{/em-form}}
   </div>
-  <section>
-    <button class="btn btn-success btn-lg" {{action 'newWord'}}>Add Word</button>
-  </section>
 </div>

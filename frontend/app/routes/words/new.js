@@ -7,6 +7,7 @@ export default Ember.Route.extend({
       controller.set('validationErrors', false);
       controller.set('text_hindi', "");
       controller.set('text_romanized', "");
+      controller.set('text', "");
       }
     }
 });

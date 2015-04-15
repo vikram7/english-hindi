@@ -1,13 +1,16 @@
 import Ember from "ember";
 
 export default Ember.Controller.extend({
-  partOfSpeech: ["adjective", "noun", "phrase", "verb"],
+  partsOfSpeech: [{id: 1, partOfSpeech: "adjective"},
+                  {id: 2, partOfSpeech: "noun"},
+                  {id: 3, partOfSpeech: "phrase"},
+                  {id: 4, partOfSpeech: "verb"}],
   actions: {
     newWord: function() {
 
       var textHindi = this.get('text_hindi');
       var textRomanized = this.get('text_romanized');
-      var partOfSpeech = this.get('part_of_speech');
+      var partOfSpeech = this.get('partOfSpeech');
       var text = this.get('text');
       var _this = this;
 
