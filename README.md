@@ -68,7 +68,8 @@ April 14, 2015
 - Custom transition for flipping flashcard?
 - Remove warnings around CSP directive
 - More Tests
-- Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi)
+- Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi), forvo:
+  - http://apifree.forvo.com/action/word-pronunciations/format/json/word/मछली/language/hi/key/[FORVO_API_KEY]/
 
 - Replace 'placeholder' cards with romanized text
 - Remove index action
