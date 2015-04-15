@@ -64,7 +64,7 @@ April 15, 2015
 - Styled part of speech in new card form (ember idx forms select)
 
 ###Next Steps
-
+- Fix styling of "Add Card" link
 - Add Edit card ability
 - Add Delete card ability
 - Transition for random word <-> random word
