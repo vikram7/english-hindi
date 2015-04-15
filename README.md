@@ -60,10 +60,11 @@ April 14, 2015
 - Server side fix for meaning text validation
 
 April 15, 2015
-- Cleared template and error messages when trying to add new card (by updating the controller in the route)
+- Cleared template and error messages when trying to add new card (by updating the controller properties in the route)
+- Styled part of speech in new card form (ember idx forms select)
 
 ###Next Steps
-- Style part of speech in new card form
+
 - Add Edit card ability
 - Add Delete card ability
 - Transition for random word <-> random word
