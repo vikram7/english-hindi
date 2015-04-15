@@ -68,7 +68,6 @@ April 15, 2015
 - Add Edit card ability
 - Add Delete card ability
 - Transition for random word <-> random word
-- Remove warnings around CSP directive
 - More Tests
 - Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi)
 
