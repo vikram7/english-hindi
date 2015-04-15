@@ -64,12 +64,11 @@ April 15, 2015
 - Styled part of speech in new card form (ember idx forms select)
 
 ###Next Steps
-- Fix styling of "Add Card" link
+- Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi) or [Forvo](http://www.forvo.com)
+- More Tests
 - Add Edit card ability
 - Add Delete card ability
 - Transition for random word <-> random word
-- More Tests
-- Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi)
 
 - Replace 'placeholder' cards with romanized text
 - Add uniqueness constraint for words?
