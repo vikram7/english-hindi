@@ -7,11 +7,8 @@ Are there any other indexes I should add?
 ##Testing
 What does this mean wrt include?: serialized_meaning = MeaningSerializer.new(meaning, include: [:word])
 Why do I get a bunch of warnings when I run `rake spec`?
-Why is validate_uniqueness_of failing for meaning?
-When do I need serializer tests?
 
 # Front End / Ember
-What is Router.js doing?
 What is {{outlet}}? placeholders for other templates. As users move around your app, different templates can be plugged into the outlet by the router. You can put outlets into your template using the {{outlet}} helper.
 What is { async: true } in models doing?
 In my words show page, how is it aware of `meaning`?

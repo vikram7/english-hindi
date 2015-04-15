@@ -59,18 +59,20 @@ April 14, 2015
 - Added first implementation of validations / error messages
 - Server side fix for meaning text validation
 
-###Next Steps
+April 15, 2015
+- Cleared template and error messages when trying to add new card (by updating the controller in the route)
 
-- Style new card form
+###Next Steps
+- Style part of speech in new card form
 - Add Edit card ability
-- Deal with bad input in new card form / validations
+- Add Delete card ability
 - Transition for random word <-> random word
-- Custom transition for flipping flashcard?
 - Remove warnings around CSP directive
 - More Tests
 - Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi)
 
 - Replace 'placeholder' cards with romanized text
+- Add uniqueness constraint for words?
 - Remove index action
 - Consider ES6 syntax
 - Add photos for flash card (maybe an API rather than static images?)
