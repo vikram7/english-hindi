@@ -65,7 +65,7 @@ April 15, 2015
 - Add delete button to word show page
 
 April 16, 2015
-- Added word pronunciation audio for word cards.
+- Added word pronunciation audio for word cards with the [Web Speech API Specs](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html)
 
 ###Next Steps
 - Replace 'placeholder' cards with romanized text
