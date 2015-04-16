@@ -1,4 +1,6 @@
 {{#each word in model}}
-  <h3>{{link-to word.text_hindi 'words.show' word}}</h3>
-  <p>{{word.text_romanized}}</p>
+  <div class="well">
+    <p>{{link-to word.text_hindi 'words.show' word}}</p>
+    <p>{{word.text_romanized}}</p>
+  </div>
 {{/each}}
