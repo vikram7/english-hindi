@@ -18,6 +18,16 @@ export default Ember.Route.extend({
           _this.transitionTo('words.random');
         });
       });
+    },
+    speakWord: function(word) {
+      var currentWord = this.currentModel;
+      var textHindi = currentWord.get('text_hindi');
+      var utterance = new SpeechSynthesisUtterance(textHindi);
+      utterance.lang = 'hi-IN';
+      utterance.rate = 10;
+      window.speechSynthesis.speak(utterance);
     }
   }
 });
+
+
