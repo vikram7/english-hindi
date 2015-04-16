@@ -14,9 +14,11 @@ export default Ember.Route.extend({
       var _this = this;
       var currentWord = this.currentModel;
       this.store.find('word', currentWord.id).then(function(word) {
-        word.destroyRecord();
+        word.destroyRecord().then(function(){
+          debugger;
+          _this.transitionTo('words.random');
+        });
       });
-
     }
   }
 });
