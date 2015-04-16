@@ -14,10 +14,6 @@ class Api::V1::WordsController < ApplicationController
     render json: @word
   end
 
-  def new
-
-  end
-
   def destroy
     word = Word.find(params[:id])
     word.destroy
