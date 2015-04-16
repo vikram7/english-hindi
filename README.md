@@ -64,12 +64,13 @@ April 15, 2015
 - Styled part of speech in new card form (ember idx forms select)
 
 ###Next Steps
+- Add Delete card ability
+  + Styling
 - Look at google translate api for sounds [link](http://translate.google.com/translate_tts?ie=UTF-8&q=%E0%A4%95%E0%A4%B2%E0%A4%BE&tl=hi) or [Forvo](http://www.forvo.com)
 - Replace 'placeholder' cards with romanized text
   + Update csv seeder with real words, transliterations & translations
 - More Tests
 - Add Edit card ability
-- Add Delete card ability
 - Transition for random word <-> random word
 - Add uniqueness constraint for words?
 - Remove index action

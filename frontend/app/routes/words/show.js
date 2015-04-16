@@ -15,7 +15,6 @@ export default Ember.Route.extend({
       var currentWord = this.currentModel;
       this.store.find('word', currentWord.id).then(function(word) {
         word.destroyRecord().then(function(){
-          debugger;
           _this.transitionTo('words.random');
         });
       });
