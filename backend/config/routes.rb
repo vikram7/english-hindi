@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :categories, only: [:index, :show]
       resources :meanings, only: [:index, :show]
-      resources :words, only: [:index, :show, :create, :new]
+      resources :words, only: [:index, :show, :create, :new, :destroy]
     end
   end
 end

@@ -18,6 +18,11 @@ class Api::V1::WordsController < ApplicationController
 
   end
 
+  def destroy
+    word = Word.find(params[:id])
+    word.destroy
+  end
+
   def create
     word_params = create_word_params
     word = Word.new(text_hindi: word_params[:text_hindi], text_romanized: word_params[:text_romanized])
