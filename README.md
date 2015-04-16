@@ -62,6 +62,7 @@ April 14, 2015
 April 15, 2015
 - Cleared template and error messages when trying to add new card (by updating the controller properties in the route)
 - Styled part of speech in new card form (ember idx forms select)
+- Add delete button to word show page
 
 ###Next Steps
 - Add Delete card ability
