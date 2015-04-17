@@ -68,12 +68,13 @@ April 16, 2015
 - Added word pronunciation audio for word cards with the [Web Speech API Specs](https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html)
 
 ###Next Steps
+- Navbar adjustments for clarity (hover "Smaran Shakti" => "Mental Power")
+- Remove index action
 - Replace 'placeholder' cards with romanized text
   + Update csv seeder with real words, transliterations & translations
 - More Tests
 - Add Edit card ability
 - Transition for random word <-> random word
 - Add uniqueness constraint for words?
-- Remove index action
 - Consider ES6 syntax
 - Add photos for flash card (maybe an API rather than static images?)
