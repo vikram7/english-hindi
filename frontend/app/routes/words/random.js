@@ -12,7 +12,7 @@ export default Ember.Route.extend({
     });
   },
   actions: {
-    speakWord: function(word) {
+    speakWord: function() {
       var currentWord = this.currentModel;
       var textHindi = currentWord.get('text_hindi');
       var utterance = new SpeechSynthesisUtterance(textHindi);

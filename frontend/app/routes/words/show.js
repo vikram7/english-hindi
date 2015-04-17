@@ -10,7 +10,7 @@ export default Ember.Route.extend({
     return this.store.find('word', params.word_id);
   },
   actions: {
-    deleteWord: function(word) {
+    deleteWord: function() {
       var _this = this;
       var currentWord = this.currentModel;
       this.store.find('word', currentWord.id).then(function(word) {
@@ -19,7 +19,7 @@ export default Ember.Route.extend({
         });
       });
     },
-    speakWord: function(word) {
+    speakWord: function() {
       var currentWord = this.currentModel;
       var textHindi = currentWord.get('text_hindi');
       var utterance = new SpeechSynthesisUtterance(textHindi);

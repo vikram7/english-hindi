@@ -59,3 +59,8 @@ a:hover {
 .navbar-custom div li a:hover {
   background-color: #17baef;
 }
+
+/* ========= Main Page ====== */
+.main-page {
+  margin-top: 200px;
+}
