@@ -71,4 +71,5 @@ April 16, 2015
 
 April 17, 2015
 - Cleaned up CSV seeder
+
 ![alt](http://i.imgur.com/f163CS9.gif)
