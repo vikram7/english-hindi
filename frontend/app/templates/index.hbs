@@ -1,5 +1,19 @@
 <div class="container text-center">
-  <div class="main-page">
-    {{link-to 'Click here to start!' 'words.random' class="btn btn-success btn-lg"}}
+ {{#link-to 'words.random'}}
+  <div class="well">
+    <div class="part-of-speech">
+      grammar
+    </div>
+    <div class="text-hindi">
+      script
+    </div>
+    <div class="text-romanized">
+      pronunciation
+    </div>
   </div>
+{{/link-to}}
+</div>
+
+<div class="container text-center">
+  {{link-to 'Click here to start!' 'words.random' class="btn btn-success btn-lg"}}
 </div>
