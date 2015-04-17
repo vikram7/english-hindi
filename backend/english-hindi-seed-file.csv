@@ -1,11 +1,9 @@
 part_of_speech,text,text_hindi,text_romanized
-noun,bear,भालू,baalu
-noun,bird,बर्ड,bard
-noun,cat,बिल्ली,bijji
+noun,cat,बिल्ली,billi
 noun,cow,गाय,gaay
 noun,dog,कुत्ता,kuttaa
 noun,fish,मछली,machali
-noun,horse,घोड़ा,placeholder
+noun,horse,घोड़ा,goda
 noun,monkey,बंदर,bandar
 noun,pig,सुअर,sushar
 noun,sheep,भेड़,mend
@@ -14,257 +12,31 @@ noun,book,पुस्तक,pustak
 noun,dictionary,शब्दकोश,shabdakosh
 noun,geography,भूगोल,bhugol
 noun,history,इतिहास,itihaas
-noun,math,गणित,placeholder
-noun,music,संगीत,placeholder
-noun,science,विज्ञान,placeholder
-noun,bank,बैंक,placeholder
-noun,beach,समुद्रतट,placeholder
-noun,cafe,कैफे,placeholder
-noun,country,देश,placeholder
-noun,desert,डेजर्ट,placeholder
-noun,flowers,फूल,placeholder
-noun,football,फुटबॉल,placeholder
-noun,forest,वन,placeholder
-noun,game,खेल,placeholder
-noun,garden,गार्डन,placeholder
-noun,house,मकान,placeholder
-noun,island,द्वीप,placeholder
-noun,lake,झील,placeholder
-noun,library,लाइब्रेरी,placeholder
-noun,mountain,पर्वत,placeholder
-noun,movies,सिनेमा,placeholder
-noun,ocean,महासागर,placeholder
-noun,office,कार्यालय,placeholder
-noun,on foot,पैर पर,placeholder
-noun,player,खिलाड़ी,placeholder
-noun,river,नदी,placeholder
-noun,sea,सागर,placeholder
-noun,soccer,फुटबॉल,placeholder
-noun,supermarket,सुपरमार्केट,placeholder
-noun,swimming pool,तरणताल,placeholder
-noun,theater,थियेटर,placeholder
-noun,tree,पेड़,placeholder
-noun,food,भोजन,placeholder
-noun,apple,सेब,placeholder
-noun,apricot,खुबानी,placeholder
-noun,banana,केला,placeholder
-noun,bread,रोटी,placeholder
-noun,breakfast,नाश्ता,placeholder
-noun,butter,मक्खन,placeholder
-noun,objects,वस्तुओं,placeholder
-noun,bathroom,स्नानघर,placeholder
-noun,bed,बिस्तर,placeholder
-noun,bedroom,शयनकक्ष,placeholder
-noun,ceiling,उच्चतम सीमा,placeholder
-noun,chair,कुर्सी,placeholder
-noun,clothes,कपड़े,placeholder
-noun,coat,कोट,placeholder
-noun,cup,कप,placeholder
-noun,desk,डेस्क,placeholder
-noun,dress,पोशाक,placeholder
-noun,floor,फर्श,placeholder
-noun,fork,Fork,placeholder
-noun,furniture,फर्नीचर,placeholder
-noun,glass,ग्लास,placeholder
-noun,hat,टोप,placeholder
-noun,house,मकान,placeholder
-noun,ink,इंक,placeholder
-noun,jacket,जैकेट,placeholder
-noun,kitchen,रसोईघर,placeholder
-noun,knife,चाकू,placeholder
-noun,lamp,चिराग,placeholder
-noun,letter,पत्र,placeholder
-noun,map,मानचित्र,placeholder
-noun,newspaper,समाचार पत्र,placeholder
-noun,notebook,नोटबुक,placeholder
-noun,pants,पैंट,placeholder
-noun,paper,पेपर,placeholder
-noun,pen,कलम,placeholder
-noun,pencil,पेंसिल,placeholder
-noun,pharmacy,फार्मेसी,placeholder
-noun,picture,चित्र,placeholder
-noun,plate,प्लेट,placeholder
-noun,refrigerator,फ्रिज,placeholder
-noun,restaurant,भोजनालय,placeholder
-noun,roof,छत,placeholder
-noun,room,कमरा,placeholder
-noun,rug,गलीचा,placeholder
-noun,scissors,कैंची,placeholder
-noun,shampoo,शैम्पू,placeholder
-noun,shirt,कमीज,placeholder
-noun,shoes,जूते,placeholder
-noun,soap,साबुन,placeholder
-noun,socks,मोज़े,placeholder
-noun,spoon,चम्मच,placeholder
-noun,table,मेज,placeholder
-noun,toilet,शौचालय,placeholder
-noun,toothbrush,टूथब्रश,placeholder
-noun,toothpaste,टूथपेस्ट,placeholder
-noun,towel,तौलिया,placeholder
-noun,t-shirt,टी शर्ट,placeholder
-noun,umbrella,छाता,placeholder
-noun,underwear,अंडरवियर,placeholder
-noun,wall,दीवार,placeholder
-noun,wallet,बटुआ,placeholder
-noun,window,खिड़की,placeholder
-noun,candy,कैंडी,placeholder
-noun,carrot,गाजर,placeholder
-noun,cheese,पनीर,placeholder
-noun,chicken,मुर्गा,placeholder
-noun,dessert,मिठाई,placeholder
-noun,dinner,रात्रिभोज,placeholder
-noun,fish,मछली,placeholder
-noun,food,भोजन,placeholder
-noun,fruit,फल,placeholder
-noun,grapes,अंगूर,placeholder
-noun,ice cream,आइस क्रीम,placeholder
-noun,lamb,मेम्ने,placeholder
-noun,lemon,नींबू,placeholder
-noun,lunch,दोपहर का भोजन,placeholder
-noun,meal,भोजन,placeholder
-noun,meat,मांस,placeholder
-noun,onion,प्याज,placeholder
-noun,orange,संतरा,placeholder
-noun,pork,पोर्क,placeholder
-noun,potato,आलू,placeholder
-noun,salad,सलाद,placeholder
-noun,salt,नमक,placeholder
-noun,sandwich,सैंडविच,placeholder
-noun,sausage,सासीज,placeholder
-noun,soup,सूप,placeholder
-noun,sugar,चीनी,placeholder
-noun,supper,रात का खाना,placeholder
-noun,turkey,तुर्की,placeholder
-noun,vegetables,सब्जियों,placeholder
-noun,people,लोग,placeholder
-noun,aunt,चाची,placeholder
-noun,baby,शिशु,placeholder
-noun,brother,भाई,placeholder
-noun,cousin,चचेरा,placeholder
-noun,daughter,बेटी,placeholder
-noun,dentist,दंत चिकित्सक,placeholder
-noun,doctor,चिकित्सक,placeholder
-noun,father,पिता,placeholder
-noun,granddaughter,पोती,placeholder
-noun,grandfather,दादाजी,placeholder
-noun,grandmother,दादी माँ,placeholder
-noun,grandson,पोता,placeholder
-noun,husband,पति,placeholder
-noun,mother,माता,placeholder
-noun,nephew,भतीजा,placeholder
-noun,niece,भतीजी,placeholder
-noun,nurse,नर्स,placeholder
-noun,policeman,पुलिस,placeholder
-noun,postman,डाकिया,placeholder
-noun,professor,प्रोफेसर,placeholder
-noun,son,बेटा,placeholder
-noun,teacher,शिक्षक,placeholder
-noun,uncle,चाचा,placeholder
-noun,wife,पत्नी,placeholder
-noun,arm,बांह,placeholder
-noun,back,पीछे,placeholder
-noun,chest,सीना,placeholder
-noun,ear,कान,placeholder
-noun,eye,नेत्र,placeholder
-noun,face,चेहरा,placeholder
-noun,finger,उंगली,placeholder
-noun,fingers,फिंगर्स,placeholder
-noun,foot,पैर,placeholder
-noun,hair,बाल,placeholder
-noun,hand,हाथ,placeholder
-noun,head,सिर,placeholder
-noun,heart,हृदय,placeholder
-noun,leg,पैर,placeholder
-noun,mouth,मुँह,placeholder
-noun,neck,गर्दन,placeholder
-noun,nose,नाक,placeholder
-noun,shoulder,कंधे,placeholder
-noun,stomach,पेट,placeholder
-noun,teeth,दांत,placeholder
-noun,tongue,भाषा,placeholder
-noun,tooth,दांत,placeholder
-adjective,angry,गुस्सा,placeholder
-adjective,bad,बुरा,placeholder
-adjective,beautiful,सुंदर,placeholder
-adjective,cheap,सस्ता,placeholder
-adjective,clean,साफ़,placeholder
-adjective,cold,शीतल,placeholder
-adjective,different,अलग,placeholder
-adjective,difficult,मुश्किल,placeholder
-adjective,early,जल्दी,placeholder
-adjective,easy,सरल,placeholder
-adjective,friendly,दोस्ताना,placeholder
-adjective,good,अच्छा,placeholder
-adjective,heavy,भारी,placeholder
-adjective,important,महत्वपूर्ण,placeholder
-adjective,married,विवाहित,placeholder
-adjective,natural,प्राकृतिक,placeholder
-adjective,nice,अच्छा,placeholder
-adjective,open,खुला होना,placeholder
-adjective,polite,विनम्र,placeholder
-adjective,poor,गरीब,placeholder
-adjective,rich,धनी,placeholder
-adjective,sad,उदास,placeholder
-adjective,simple,सरल,placeholder
-adjective,slow,धीमा,placeholder
-adjective,small,छोटा,placeholder
-adjective,sweet,मीठा,placeholder
-adjective,tall,लंबा,placeholder
-adjective,warm,गर्म,placeholder
-adjective,well,अच्छा,placeholder
-adjective,worse,बदतर,placeholder
-adjective,worst,सबसे बुरा,placeholder
-adjective,wrong,गलत,placeholder
-verb,to do,करने के लिए,placeholder
-verb,to dream,सपना करने के लिए,placeholder
-verb,to drink,पीने के लिए,placeholder
-verb,to eat,खाने के लिए,placeholder
-verb,to fall,गिरना,placeholder
-verb,to find,खोजने के लिए,placeholder
-verb,to forget,भूल करने के लिए,placeholder
-verb,to get,पाने के लिए,placeholder
-verb,to go,जाने के लिए,placeholder
-verb,to hear,सुनने के लिए,placeholder
-verb,to help,मदद करने के लिए,placeholder
-verb,to kiss,चुम्बन करने के लिए,placeholder
-verb,to know,पता करने के लिए,placeholder
-verb,to laugh,हँसने के लिए,placeholder
-verb,to learn,जानने के लिए,placeholder
-verb,to like,पसंद करने के लिए,placeholder
-verb,to live,जीने के लिए,placeholder
-verb,to look,देखो के लिए,placeholder
-verb,to love,प्यार करने के लिए,placeholder
-verb,to make,बनाने के लिए,placeholder
-verb,to mean,मतलब करने के लिए,placeholder
-verb,to meet,मिलने के लिए,placeholder
-verb,to need,जरूरत के लिए,placeholder
-verb,to open,खोलने के लिए,placeholder
-verb,to play,खेलने के लिये,placeholder
-verb,to push,पुश करने के लिए,placeholder
-verb,to read,पढ़ने के लिए,placeholder
-verb,to remember,याद करने के लिए,placeholder
-verb,to return,वापस करने के लिए,placeholder
-verb,to run,चलाने के लिए,placeholder
-verb,to say,कहने के लिए,placeholder
-verb,to see,देखने के लिए,placeholder
-verb,to sell,बेचने के लिए,placeholder
-verb,to send,भेजने के लिए,placeholder
-verb,to sit,बैठने के लिए,placeholder
-verb,to sleep,सोने के लिए,placeholder
-verb,to speak,बात करने के लिए,placeholder
-verb,to take,ले जाने के लिए,placeholder
-verb,to talk,बात करने के लिए,placeholder
-verb,to teach,पढ़ाने के लिए,placeholder
-verb,to tell,बताने के लिए,placeholder
-verb,to think,लगता है कि करने के लिए,placeholder
-verb,to understand,समझने के लिए,placeholder
-verb,to wait,इंतजार करने के लिए,placeholder
-verb,to want,चाहते हैं,placeholder
-verb,to work,काम करने के लिए,placeholder
-phrase,by bicycle,साइकिल से,placeholder
-phrase,by bus,बस से,placeholder
-phrase,by car,कार द्वारा,placeholder
-phrase,by train,ट्रेन द्वारा,placeholder
+noun,math,गणित,ganit
+noun,music,संगीत,sangeet
+noun,science,विज्ञान,dijaan
+noun,tree,पेड़,ped
+noun,food,भोजन,bhojan
+noun,father,पिता,pita
+noun,son,बेटा,betaa
+noun,teacher,शिक्षक,shishak
+noun,uncle,चाचा,chacha
+noun,wife,पत्नी,patni
+adjective,angry,गुस्सा,gussa
+adjective,bad,बुरा,bura
+adjective,beautiful,सुंदर,sundar
+adjective,cheap,सस्ता,sasta
+adjective,clean,साफ़,saaf
+adjective,cold,शीतल,shital
+adjective,different,अलग,alan
+adjective,early,जल्दी,jaldi
+adjective,easy,सरल,saral
+verb,to do,करने के लिए,karane ke liye
+verb,to dream,सपना करने के लिए,sapana karane ke liye
+phrase,by bicycle,साइकिल से,saaiyikil se
+phrase,by bus,बस से,bus se
+phrase,by car,कार द्वारा,car dvaara
+phrase,by train,ट्रेन द्वारा,tren dvaara
 adjective,black,काला,kaalaa
 adjective,blue,नीला,neelaa
 adjective,brown,भूरा,booRaa
