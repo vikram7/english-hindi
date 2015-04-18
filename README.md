@@ -1,3 +1,16 @@
+A simple flashcard program to help memorize Hindi <-> English word translation pairs. To run this locally, make sure to do the following from the root directory:
+
+```
+cd frontend
+npm install && bower install
+..
+cd backend
+bundle install
+rake db:create db:migrate db:seed
+```
+
+While in the `backend` directory, run `rails server` to setup your API to be able to get hit on `localhost:3000`. In a separate tab in your terminal, go into the `frontend` directory and run `ember serve --proxy http://localhost:3000`. Now you can go to `localhost:4200` to run the app locally.
+
 March 28, 2015
 ER Diagram:
 
