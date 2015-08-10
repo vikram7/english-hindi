@@ -8,23 +8,22 @@ export default Ember.Controller.extend({
   actions: {
     newWord: function() {
 
-      var textHindi = this.get('text_hindi');
-      var textRomanized = this.get('text_romanized');
-      var partOfSpeech = this.get('partOfSpeech');
-      var text = this.get('text');
-      var _this = this;
+      const textHindi = this.get('text_hindi');
+      const textRomanized = this.get('text_romanized');
+      const partOfSpeech = this.get('partOfSpeech');
+      const text = this.get('text');
 
-      var word = this.store.createRecord('word', {
+      const word = this.store.createRecord('word', {
         text_hindi: textHindi,
         text_romanized: textRomanized,
         categoryPartOfSpeech: partOfSpeech,
         meaningText: text
       });
 
-      word.save().then(function(){
-        _this.transitionToRoute('words.show', word);
+      word.save().then(() => {
+        this.transitionToRoute('words.show', word);
       }).catch(function(){
-        _this.set('validationErrors', ["Please enter in all the fields!"]);
+        this.set('validationErrors', ["Please enter in all the fields!"]);
       });
     }
   }

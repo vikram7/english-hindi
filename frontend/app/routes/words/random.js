@@ -6,16 +6,16 @@ export default Ember.Route.extend({
       refreshModel: true
     }
   },
-  model: function() {
-    return this.store.find('word', { random: true }).then(function(randomWords){
+  model() {
+    return this.store.find('word', { random: true }).then((randomWords) => {
       return randomWords.get("firstObject");
     });
   },
   actions: {
-    speakWord: function() {
-      var currentWord = this.currentModel;
-      var textHindi = currentWord.get('text_hindi');
-      var utterance = new SpeechSynthesisUtterance(textHindi);
+    speakWord() {
+      const currentWord = this.currentModel;
+      const textHindi = currentWord.get('text_hindi');
+      const utterance = new SpeechSynthesisUtterance(textHindi);
       utterance.lang = 'hi-IN';
       utterance.rate = 10;
       window.speechSynthesis.speak(utterance);

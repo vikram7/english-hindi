@@ -11,11 +11,9 @@ Router.map(function() {
     this.route('random', { path: '/random' });
     this.route('new');
   });
-
   this.route('meanings', function() {
     this.route('show', { path: ':meaning_id' });
   });
-
 });
 
 export default Router;

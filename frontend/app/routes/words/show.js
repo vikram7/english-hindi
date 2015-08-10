@@ -6,28 +6,25 @@ export default Ember.Route.extend({
       refreshModel: true
     }
   },
-  model: function(params) {
+  model(params) {
     return this.store.find('word', params.word_id);
   },
   actions: {
-    deleteWord: function() {
-      var _this = this;
-      var currentWord = this.currentModel;
-      this.store.find('word', currentWord.id).then(function(word) {
-        word.destroyRecord().then(function(){
-          _this.transitionTo('words.random');
+    deleteWord() {
+      const currentWord = this.currentModel;
+      this.store.find('word', currentWord.id).then((word) => {
+        word.destroyRecord().then(() => {
+          this.transitionTo('words.random');
         });
       });
     },
-    speakWord: function() {
-      var currentWord = this.currentModel;
-      var textHindi = currentWord.get('text_hindi');
-      var utterance = new SpeechSynthesisUtterance(textHindi);
+    speakWord() {
+      const currentWord = this.currentModel;
+      const textHindi = currentWord.get('text_hindi');
+      const utterance = new SpeechSynthesisUtterance(textHindi);
       utterance.lang = 'hi-IN';
       utterance.rate = 10;
       window.speechSynthesis.speak(utterance);
     }
   }
 });
-
-
